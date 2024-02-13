@@ -1,7 +1,7 @@
 # Site settings
 title:          Jurnal Harian Regional
 description:    "Minimal Jekyll theme for storytellers"
-#baseurl:        "/tale"
+baseurl:        "/jurnal"
 url:            "https://chesterhow.github.io"
 
 # Google Analytics
