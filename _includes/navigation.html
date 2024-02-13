@@ -1,0 +1,17 @@
+<header>
+  <nav class="nav">
+    <div class="nav-container">
+      <a href="{{ site.baseurl }}/">
+        <h2 class="nav-title">{{ site.title }}</h2>
+      </a>
+      <h2 id="accessible-menu-label" class="visually-hidden">
+        <a href="#main">Quick jump to page content</a>
+      </h2>
+      <ul>
+        <li><a href="{{ site.baseurl }}/">Posts</a></li>
+        <li><a href="{{ '/tags' | prepend: site.baseurl }}">Tags</a></li>
+        <li><a href="{{ '/about' | prepend: site.baseurl }}">About</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>

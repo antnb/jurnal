@@ -1,0 +1,23 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO tags -->
+  {% seo %}
+  <!-- Asynchronously load main.css -->
+  <link rel="preload" href="{{ "/assets/main.css" | relative_url }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}"></noscript>
+  <!-- Defer loading of Google Fonts -->
+  <link rel="preload" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700&display=swap"></noscript>
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/favicon-32x32.png" | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/favicon-16x16.png" | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/apple-touch-icon.png" | relative_url }}">
+  <!-- RSS feed meta -->
+  {% feed_meta %}
+  <!-- Google Analytics (if enabled and in production environment) -->
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+    {% include analytics.html %}
+  {% endif %}
+</head>
+
