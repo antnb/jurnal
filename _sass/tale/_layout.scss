@@ -81,48 +81,53 @@ footer,
 }
 
 .footer {
-    background-color: #f8f9fa; /* Light background color */
-    color: #333; /* Text color */
-    padding: 40px 0; /* Padding for content */
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 10px 0; /* Mengurangi padding */
     text-align: center;
     font-family: Arial, sans-serif;
-    border-top: 1px solid #ddd; /* Top border */
-    margin-bottom: 20px; /* Space at the bottom */
-    margin-top: 20px; /* Space at the top */
+    border-top: 10px solid #ddd;
+    border-bottom: 10px solid #ddd; /* Menambahkan border di bagian bawah */
+    margin-top: 25px;
+    margin-bottom: 20px; /* Menambahkan margin di bagian bawah */
 }
 
 .footer a {
-    color: #555; /* Link color */
+    color: #555;
     text-decoration: none;
-    margin: 0 10px;
-    transition: color 0.3s ease; /* Smooth transition */
+    margin: 0 4px; /* Mengurangi margin */
+    transition: color 0.3s ease;
 }
 
 .footer a:hover {
-    color: #777; /* Hover color */
+    color: #777;
 }
 
 .footer section {
-    margin-bottom: 20px; /* Spacing between sections */
+    margin-bottom: 10px; /* Mengurangi spacing antara bagian-bagian */
 }
 
-.footer section h4 {
-    margin-bottom: 10px; /* Spacing below headings */
-    font-size: 18px; /* Heading font size */
-    color: #666; /* Heading color */
+.footer h4 {
+    margin-bottom: 4px; /* Mengurangi spacing di bawah judul */
+    font-size: 18px; /* Mengurangi ukuran font judul */
+    color: #666;
 }
 
-.footer section p {
-    color: #777; /* Text color */
+.footer p {
+    color: #777;
+    margin-bottom: 2px; /* Mengurangi margin bawah untuk paragraf */
 }
 
-.footer-contact a, .footer-policy a, .footer-links a {
-    color: #777; /* Link color */
-    transition: color 0.3s ease; /* Smooth transition */
+.footer-links a {
+    color: #777;
 }
 
-.footer-contact a:hover, .footer-policy a:hover, .footer-links a:hover {
-    color: #999; /* Hover color */
+.footer-links a:hover {
+    color: #999;
+}
+
+.footer i {
+    font-size: 14px; /* Mengurangi ukuran ikon media sosial */
 }
 
 
