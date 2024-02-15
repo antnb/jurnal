@@ -22,27 +22,18 @@
   }
 
   &-time {
-    color: #555; /* Text color */
+    color: $default-tint;
     font-family: $serif-secondary;
     letter-spacing: .5px;
-    text-decoration: none; /* Remove the default underline */
-
-    /* Add a colored underline */
-    border-bottom: 2px solid blue; /* Adjust the color and thickness as needed */
-    display: inline; /* Ensures the underline stays only under the text */
   }
 
   &-title {
     color: $default-shade;
     display: block;
     font-family: $sans-serif;
-    font-size: 1.5rem;
-    overflow-wrap: break-word;
-    max-width: 100%; /* Set the maximum width as needed */
+    font-size: 2rem;
     font-weight: 700;
     margin: .5rem 0;
-    white-space: nowrap; /* Prevent wrapping to the next line */
-    overflow: hidden; /* Hide any overflowing content */
   }
 
   &-line {
