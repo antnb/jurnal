@@ -19,5 +19,13 @@
   {% if site.google_analytics and jekyll.environment == 'production' %}
     {% include analytics.html %}
   {% endif %}
+
+  <!-- Include Critical CSS for Homepage -->
+  {% if page.url == "/" %}
+    <style>
+      {% include critical_home.scss %}
+    </style>
+  {% endif %}
 </head>
+
 
