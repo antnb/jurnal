@@ -1,19 +1,12 @@
-.catalogue {
-  &-item {
-    border-bottom: 1px solid $grey-2;
-    color: $default-color;
-    display: block;
-    padding: 2rem 0;
+.catalogue-item p {
+  max-width: 100%;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Adjust the number of lines to show */
+  -webkit-box-orient: vertical;
+  word-wrap: break-word;
+}
 
-    &:hover .catalogue-line,
-    &:focus .catalogue-line {
-      width: 5rem;
-    }
-
-    &:last-child {
-      border: 0;
-    }
-  }
 
   &-pinned {
     color: $default-tint;
@@ -32,14 +25,17 @@
     display: inline; /* Ensures the underline stays only under the text */
   }
 
-  &-title {
+&-title {
     color: $default-shade;
     display: block;
     font-family: $sans-serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    overflow-wrap: break-word;
+    max-width: 100%; /* Set the maximum width as needed */
     font-weight: 700;
     margin: .5rem 0;
-  }
+}
+
 
   &-line {
     @include transition(all .3s ease-out);
