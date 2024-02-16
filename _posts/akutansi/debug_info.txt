@@ -1,7 +1,0 @@
-URLs Processed:
-"https://ojs.unud.ac.id/index.php/kerthasemaya/article/view/105028"
-"https://ojs.unud.ac.id/index.php/kerthasemaya/article/view/105845"
-
-URLs Failed:
-"https://ojs.unud.ac.id/index.php/kerthasemaya/article/view/105028" - Failed to process https://ojs.unud.ac.id/index.php/kerthasemaya/article/view/105028. Error: name 'references_text' is not defined
-"https://ojs.unud.ac.id/index.php/kerthasemaya/article/view/105845" - Failed to process https://ojs.unud.ac.id/index.php/kerthasemaya/article/view/105845. Error: name 'references_text' is not defined
