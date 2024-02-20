@@ -1,0 +1,26 @@
+URLs Processed:
+"https://ojs.unud.ac.id/index.php/EEB/article/view/111564
+"
+"https://ojs.unud.ac.id/index.php/EEB/article/view/111564
+"
+"https://ojs.unud.ac.id/index.php/EEB/article/view/98946
+"
+"https://ojs.unud.ac.id/index.php/EEB/article/view/98946
+"
+"https://ojs.unud.ac.id/index.php/EEB/article/view/88362
+"
+"https://ojs.unud.ac.id/index.php/EEB/article/view/88362
+"
+"https://ojs.unud.ac.id/index.php/EEB/article/view/88877
+"
+"https://ojs.unud.ac.id/index.php/EEB/article/view/88877
+"
+"https://ojs.unud.ac.id/index.php/EEB/article/view/107739
+"
+"https://ojs.unud.ac.id/index.php/EEB/article/view/107739
+"
+
+URLs Failed:
+"
+" - Failed to process 
+. Reason: Invalid URL '': No scheme supplied. Perhaps you meant https://?

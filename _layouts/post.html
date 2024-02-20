@@ -9,10 +9,10 @@ layout: default
 <section class="post-info">
   <span>Written by</span>
 
-  {% if page.author %}
-    {{ page.author }}
+   {% if page.author %}
+    <strong>{{ page.author }}</strong>
   {% else %}
-    {{ site.author.name }}
+    <strong>{{ site.author.name }}</strong>
   {% endif %}
 
     {% if page.date %}

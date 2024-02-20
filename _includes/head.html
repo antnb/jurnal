@@ -1,6 +1,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  {% if page.last_modified_at %}
+  <meta name="last-updated" content="{{ page.last_modified_at | date: '%Y-%m-%d %H:%M:%S %z' }}">
+{% endif %}
   <!-- SEO tags -->
   {% seo %}
   <!-- Asynchronously load main.css -->
