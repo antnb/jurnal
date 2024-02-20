@@ -40,9 +40,3 @@ exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
 
 # Disqus (Set to your disqus id)
 disqus:         jekyll-tale
-
-# Collections
-collections:
-  full:
-    output: true
-    permalink: /:categories/:title

@@ -15,16 +15,10 @@ layout: default
     {{ site.author.name }}
   {% endif %}
 
-  {% if page.date %}
-    <br>
-    <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
-   <span>Last updated on&nbsp;</span><time datetime="{{ page.last_modified_at }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time>
-  {% endif %}
-
-  {% if page.last_modified_at %}
-    <br>
-    <span>Last updated on&nbsp;</span><time datetime="{{ page.last_modified_at }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time>
-  {% endif %}
+    {% if page.date %}
+      <br>
+      <span>on&nbsp;</span><time datetime="{{ page.date }}">{{ page.date | date: "%B %d, %Y" }}</time>
+    {% endif %}
 </section>
 
 
@@ -39,11 +33,11 @@ layout: default
 
 <aside class="pagination">
   {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">&#8592;</a>
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">Lanjutkan ke Artikel Berikutnya &#8592;</a>
   {% endif %}
   {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594;</a>
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594; Kembali ke Artikel Sebelumnya</a>
   {% endif %}
 
-  <a href="#" class="top">Top</a>
+  <a href="#" class="top">Kembali ke Atas</a>
 </aside>
