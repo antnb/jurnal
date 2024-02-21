@@ -49,7 +49,7 @@ def strip_special_characters(description):
     return re.sub(r'[^a-zA-Z0-9\s]', '', description)
 
 # Function to generate full article Markdown content
-def generate_full_article_markdown(title, authors, abstract, canonical_url, keywords):
+def generate_full_article_markdown(title, authors, abstract, canonical_url, keywords, numeric_part):
     markdown_content = f'''---
 layout: full_article
 title: "{encode_special_characters(title)}"
@@ -61,10 +61,11 @@ tags:
 {'  - "' + '"\n  - "'.join(keywords) + '"' if keywords else ''}
 ---
 
-<object data="{{ site.url }}{{ site.baseurl }}/_pdfs/{title}.pdf" width="1000" height="1000" type="application/pdf"></object>
+<object data="{{ site.url }}{{ site.baseurl }}/pdf/{numeric_part}.pdf" width="1000" height="1000" type="application/pdf"></object>
 '''
 
     return markdown_content
+
 
 # Function to download and rename PDF document
 def download_and_rename_pdf(url, numeric_part):
@@ -164,12 +165,12 @@ def process_url(url):
         # Replace "Date accessed: random tanggal,hari dan tahun" with "Date accessed: {{ site.time | date: "%d %b. %Y" }}"
         citation_output_text = re.sub(r'Date accessed: \d{1,2} \w{3}\. \d{4}', 'Date accessed: {{ site.time | date: "%d %b. %Y" }}', citation_output_text)
         # Replace the undesired URL pattern with the desired one
-        citation_output_text = re.sub(r'https://ojs\.unud\.ac\.id/index\.php/eep/article/view/(\d+)', r'https://jurnal.harianregional.com/eep/id-\1', citation_output_text)
+        citation_output_text = re.sub(r'https://ojs\.unud\.ac\.id/index\.php/EEB/article/view/(\d+)', r'https://jurnal.harianregional.com/eeb/id-\1', citation_output_text)
         # Extract the numeric part from the URL
         numeric_part = re.search(r'\d+$', url).group()
 
         # Construct canonical URL
-        canonical_url = f"https://jurnal.harianregional.com/eep/id-{numeric_part}"
+        canonical_url = f"https://jurnal.harianregional.com/eeb/id-{numeric_part}"
         
         # Extract issue information
         issue_text = soup.find("div", class_="item issue").find("div", class_="value").get_text(strip=True)
@@ -202,7 +203,7 @@ layout: post
 title: "{encode_special_characters(title)}"
 author: "{authors}"
 description: "{strip_special_characters(abstract[:170])}"
-categories: eep
+categories: eeb
 canonical_url: {canonical_url}
 tags:
 {'  - "' + '"\n  - "'.join(keywords) + '"' if keywords else ''}
@@ -263,7 +264,7 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by/4
         print(f"Scraped information saved to '{post_file_name}'")
 
         # Generate full article Markdown content
-        full_article_markdown = generate_full_article_markdown(title, authors, abstract, canonical_url, keywords)
+        full_article_markdown = generate_full_article_markdown(title, authors, abstract, canonical_url, keywords, numeric_part)
 
         # Modify the file name to include 'full'
         full_article_file_name = f"full_articles/{publication_date}-full-{numeric_part}.md" if publication_date else f"full_articles/unknown-full-{numeric_part}.md"
