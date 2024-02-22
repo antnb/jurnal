@@ -1,147 +1,76 @@
-/* CSS for Navigation Menu with Improved Color Contrast */
+.post {
+  padding: 3rem 0;
 
-.container {
-  margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
-}
+  &-info {
+    color: #555;
+    font-family: $serif-secondary;
+    letter-spacing: 0.5px;
+    text-align: center;
 
-main,
-footer,
-.nav-container {
-  display: block;
-  margin: 0 auto;
-  max-width: 800px;
-  width: 80%;
-}
-
-.nav {
-  box-shadow: 0 2px 2px -2px $shadow-color;
-  overflow: auto;
-}
-
-.nav-container {
-  margin: 1rem auto;
-  position: relative;
-  text-align: center;
-}
-
-.nav-title {
-  @include transition(all .2s ease-out);
-  color: #ffffff; /* White text color for better contrast */
-  display: inline-block;
-  margin: 0;
-  padding-right: .2rem;
-  font-size: 24px; /* Increase font size for title */
-  font-weight: bold; /* Add bold font weight */
-  text-transform: uppercase; /* Convert title text to uppercase */
-}
-
-ul {
-  list-style-type: none;
-  margin: 1rem 0 0;
-  padding: 0;
-  text-align: center;
-}
-
-li {
-  @include transition(all .2s ease-out);
-  color: #ffffff; /* White text color for better contrast */
-  display: inline-block;
-  opacity: .6;
-  padding: 0 2rem 0 0;
-  font-size: 18px; /* Increase font size for list items */
-}
-
-/* Add hover effect for list items */
-li:hover,
-li:focus {
-  opacity: 1;
-  transform: scale(1.1); /* Scale up the item on hover */
-}
-
-a {
-  color: #ffffff; /* White text color for better contrast */
-  font-family: $sans-serif;
-  text-decoration: none; /* Remove underline from links */
-}
-
-/* Add bottom border to highlight active link */
-li.active a {
-  border-bottom: 2px solid #0077cc; /* Blue color for active link border */
-  padding-bottom: 3px; /* Adjust padding to accommodate border */
-}
-
-@media (min-width: 600px) {
-  .nav-container {
-    text-align: left;
+    span {
+      font-style: italic;
+    }
   }
 
-  ul {
-    bottom: 0;
-    position: absolute;
-    right: 0;
+  &-title {
+    color: $default-shade;
+    font-family: $sans-serif;
+    font-size: 2rem;
+    margin: 1rem 0;
+    text-align: center;
   }
-}
 
-.footer {
-  background-color: #f8f9fa;
-  color: #333;
-  padding: 10px 0; /* Mengurangi padding */
-  text-align: center;
-  font-family: Arial, sans-serif;
-  border-top: 10px solid #ddd;
-  border-bottom: 10px solid #ddd; /* Menambahkan border di bagian bawah */
-  margin-top: 25px;
-  margin-bottom: 20px; /* Menambahkan margin di bagian bawah */
-}
+  &-line {
+    border-top: 0.4rem solid $default-shade;
+    display: block;
+    margin: 0 auto 3rem;
+    width: 4rem;
+  }
 
-.footer a {
-  color: #555;
-  text-decoration: none;
-  margin: 0 4px; /* Mengurangi margin */
-  transition: color 0.3s ease;
-}
+  p {
+    margin: 0 0 1rem;
+    text-align: justify;
+    overflow-wrap: break-word;
+  }
 
-.footer a:hover {
-  color: #777;
-}
+  a {
+    color: #555; /* Text color */
+    font-family: $serif-secondary;
+    font-size: 18px; /* Inherit font size from parent */
+    letter-spacing: .5px;
+    text-decoration: none; /* Remove the default underline */
+    border-bottom: 2px solid blue; /* Add colored underline */
+    display: inline; /* Ensures the underline stays only under the text */
+    word-wrap: break-word; /* Ensure long URLs wrap */
+    overflow-wrap: break-word; /* Ensure long URLs wrap */
 
-.footer section {
-  margin-bottom: 10px; /* Mengurangi spacing antara bagian-bagian */
-}
+    &:hover {
+      border-bottom-color: red; /* Change color on hover */
+    }
+  }
 
-.footer h4 {
-  margin-bottom: 4px; /* Mengurangi spacing di bawah judul */
-  font-size: 18px; /* Mengurangi ukuran font judul */
-  color: #666;
-}
+  img {
+    margin: 0 auto 0.5rem;
+  }
 
-.footer p {
-  color: #777;
-  margin-bottom: 2px; /* Mengurangi margin bawah untuk paragraf */
-}
+  img + em {
+    color: $default-tint;
+    display: block;
+    font-family: $sans-serif;
+    font-size: 0.9rem;
+    font-style: normal;
+    text-align: center;
+  }
 
-.footer-links a {
-  color: #777;
-}
-
-.footer-links a:hover {
-  color: #999;
-}
-
-.footer i {
-  font-size: 14px; /* Mengurangi ukuran ikon media sosial */
-}
-
-/* Visually Hidden Text */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
+  // CSS for making emoji inline
+  img.emoji {
+    display: inline-block;
+    left: 0;
+    transform: none;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: text-top;
+    padding: 0;
+    margin: 0;
+  }
 }
