@@ -1,0 +1,33 @@
+URLs Processed:
+"https://ojs.unud.ac.id/index.php/imv/article/view/103277
+"
+"https://ojs.unud.ac.id/index.php/imv/article/view/97773
+"
+"https://ojs.unud.ac.id/index.php/imv/article/view/101341
+"
+"https://ojs.unud.ac.id/index.php/imv/article/view/89399
+"
+"https://ojs.unud.ac.id/index.php/imv/article/view/56692
+"
+"https://ojs.unud.ac.id/index.php/imv/article/view/102710
+"
+
+URLs Failed:
+"https://ojs.unud.ac.id/index.php/imv/article/view/103277
+" - Failed to process https://ojs.unud.ac.id/index.php/imv/article/view/103277
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/imv/article/view/97773
+" - Failed to process https://ojs.unud.ac.id/index.php/imv/article/view/97773
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/imv/article/view/101341
+" - Failed to process https://ojs.unud.ac.id/index.php/imv/article/view/101341
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/imv/article/view/89399
+" - Failed to process https://ojs.unud.ac.id/index.php/imv/article/view/89399
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/imv/article/view/56692
+" - Failed to process https://ojs.unud.ac.id/index.php/imv/article/view/56692
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/imv/article/view/102710
+" - Failed to process https://ojs.unud.ac.id/index.php/imv/article/view/102710
+. Reason: 'NoneType' object is not subscriptable
