@@ -16,118 +16,120 @@ footer,
 .nav {
   box-shadow: 0 2px 2px -2px $shadow-color;
   overflow: auto;
+}
 
-  &-container {
-    margin: 1rem auto;
-    position: relative;
-    text-align: center;
-  }
+.nav-container {
+  margin: 1rem auto;
+  position: relative;
+  text-align: center;
+}
 
-  &-title {
-    @include transition(all .2s ease-out);
-    color: $default-color;
-    display: inline-block;
-    margin: 0;
-    padding-right: .2rem;
+.nav-title {
+  @include transition(all .2s ease-out);
+  color: #333; /* Dark color for better contrast */
+  display: inline-block;
+  margin: 0;
+  padding-right: .2rem;
+  font-size: 24px; /* Increase font size for title */
+  font-weight: bold; /* Add bold font weight */
+  text-transform: uppercase; /* Convert title text to uppercase */
+}
 
-    &:hover,
-    &:focus {
-      opacity: .6;
-    }
-  }
+ul {
+  list-style-type: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  text-align: center;
+}
 
-  ul {
-    list-style-type: none;
-    margin: 1rem 0 0;
-    padding: 0;
-    text-align: center;
-  }
+li {
+  @include transition(all .2s ease-out);
+  color: #333; /* Dark color for better contrast */
+  display: inline-block;
+  opacity: .6;
+  padding: 0 2rem 0 0;
+  font-size: 18px; /* Increase font size for list items */
+}
 
-  li {
-    @include transition(all .2s ease-out);
-    color: $default-color;
-    display: inline-block;
-    opacity: .6;
-    padding: 0 2rem 0 0;
+/* Add hover effect for list items */
+li:hover,
+li:focus {
+  opacity: 1;
+  transform: scale(1.1); /* Scale up the item on hover */
+}
 
-    &:last-child {
-      padding-right: 0;
-    }
+a {
+  color: #333; /* Dark color for better contrast */
+  font-family: $sans-serif;
+  text-decoration: none; /* Remove underline from links */
+}
 
-    &:hover,
-    &:focus {
-      opacity: 1;
-    }
-  }
-
-  a {
-    color: $default-color;
-    font-family: $sans-serif;
-  }
+/* Add bottom border to highlight active link */
+li.active a {
+  border-bottom: 2px solid #0077cc; /* Blue color for active link border */
+  padding-bottom: 3px; /* Adjust padding to accommodate border */
 }
 
 @media (min-width: 600px) {
-  .nav {
-    &-container {
-      text-align: left;
-    }
+  .nav-container {
+    text-align: left;
+  }
 
-    ul {
-      bottom: 0;
-      position: absolute;
-      right: 0;
-    }
+  ul {
+    bottom: 0;
+    position: absolute;
+    right: 0;
   }
 }
 
 .footer {
-    background-color: #f8f9fa;
-    color: #333;
-    padding: 10px 0; /* Mengurangi padding */
-    text-align: center;
-    font-family: Arial, sans-serif;
-    border-top: 10px solid #ddd;
-    border-bottom: 10px solid #ddd; /* Menambahkan border di bagian bawah */
-    margin-top: 25px;
-    margin-bottom: 20px; /* Menambahkan margin di bagian bawah */
+  background-color: #f8f9fa;
+  color: #333;
+  padding: 10px 0; /* Mengurangi padding */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-top: 10px solid #ddd;
+  border-bottom: 10px solid #ddd; /* Menambahkan border di bagian bawah */
+  margin-top: 25px;
+  margin-bottom: 20px; /* Menambahkan margin di bagian bawah */
 }
 
 .footer a {
-    color: #555;
-    text-decoration: none;
-    margin: 0 4px; /* Mengurangi margin */
-    transition: color 0.3s ease;
+  color: #555;
+  text-decoration: none;
+  margin: 0 4px; /* Mengurangi margin */
+  transition: color 0.3s ease;
 }
 
 .footer a:hover {
-    color: #777;
+  color: #777;
 }
 
 .footer section {
-    margin-bottom: 10px; /* Mengurangi spacing antara bagian-bagian */
+  margin-bottom: 10px; /* Mengurangi spacing antara bagian-bagian */
 }
 
 .footer h4 {
-    margin-bottom: 4px; /* Mengurangi spacing di bawah judul */
-    font-size: 18px; /* Mengurangi ukuran font judul */
-    color: #666;
+  margin-bottom: 4px; /* Mengurangi spacing di bawah judul */
+  font-size: 18px; /* Mengurangi ukuran font judul */
+  color: #666;
 }
 
 .footer p {
-    color: #777;
-    margin-bottom: 2px; /* Mengurangi margin bawah untuk paragraf */
+  color: #777;
+  margin-bottom: 2px; /* Mengurangi margin bawah untuk paragraf */
 }
 
 .footer-links a {
-    color: #777;
+  color: #777;
 }
 
 .footer-links a:hover {
-    color: #999;
+  color: #999;
 }
 
 .footer i {
-    font-size: 14px; /* Mengurangi ukuran ikon media sosial */
+  font-size: 14px; /* Mengurangi ukuran ikon media sosial */
 }
 
 /* Visually Hidden Text */
@@ -141,6 +143,3 @@ footer,
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
-
-
-

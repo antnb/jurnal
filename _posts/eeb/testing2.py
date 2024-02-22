@@ -52,16 +52,41 @@ def strip_special_characters(description):
 def generate_full_article_markdown(title, authors, abstract, canonical_url, keywords, numeric_part):
     markdown_content = f'''---
 layout: full_article
-title: "{encode_special_characters(title)}"
+title: "Full Article Of {encode_special_characters(title)}"
 author: "{authors}"
-description: "{strip_special_characters(abstract[:170])}"
-categories: sastra
+description: "Full Article {strip_special_characters(abstract[:170])}"
+categories: eeb
 canonical_url: {canonical_url}
+comments: true
 tags:
 {'  - "' + '"\n  - "'.join(keywords) + '"' if keywords else ''}
 ---
 
-<object data="{{ site.url }}{{ site.baseurl }}/pdf/{numeric_part}.pdf" width="1000" height="1000" type="application/pdf"></object>
+
+{strip_special_characters(abstract[:570])}"
+
+<div style="position: relative; width: 100%; max-width: 1000px; margin: 0 auto;">
+    <div id="pdfContainer">
+        <object id="pdfObject" data="http://localhost:4000/pdf/107739.pdf" type="application/pdf" width="100%" height="600">
+            <p style="font-size: 16px;">It appears you don't have a PDF plugin for this browser.
+                You can <a href="http://localhost:4000/pdf/107739.pdf" target="_blank">download the PDF file</a>.</p>
+        </object>
+    </div>
+    <div id="adsenseContainer" style="display: none;">
+        <!-- Replace YOUR_ADSENSE_AD_CODE with your actual AdSense ad code -->
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-1234567890" <!-- Replace with your AdSense client ID -->
+             data-ad-slot="1234567890" <!-- Replace with your AdSense ad slot ID -->
+             data-ad-format="auto"></ins>
+        <script>
+            (adsbygoogle = window.adsbygoogle || []).push({{{{}}}});
+
+        </script>
+    </div>
+</div>
+
 '''
 
     return markdown_content
@@ -205,6 +230,7 @@ author: "{authors}"
 description: "{strip_special_characters(abstract[:170])}"
 categories: eeb
 canonical_url: {canonical_url}
+comments: true
 tags:
 {'  - "' + '"\n  - "'.join(keywords) + '"' if keywords else ''}
 ---
