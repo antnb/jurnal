@@ -33,10 +33,10 @@ layout: default
 
 <aside class="pagination">
   {% if page.next.url %}
-    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">Lanjutkan ke Artikel Berikutnya &#8592;</a>
+    <a href="{{ page.next.url | prepend: site.baseurl }}" class="left arrow">Next &#8592;</a>
   {% endif %}
   {% if page.previous.url %}
-    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594; Kembali ke Artikel Sebelumnya</a>
+    <a href="{{ page.previous.url | prepend: site.baseurl }}" class="right arrow">&#8594; Previous</a>
   {% endif %}
 
   <a href="#" class="top">Kembali ke Atas</a>
