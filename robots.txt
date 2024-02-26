@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 Crawl-delay: 20
-Sitemap: sitemap.xml
+Sitemap: feed.xml
 
 User-agent: *
 Disallow: /pdf/
