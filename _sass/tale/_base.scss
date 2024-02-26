@@ -65,7 +65,9 @@ td {
   vertical-align: top;
 }
 
-.adsbygoogle {
+body .adsbygoogle,
+body ins.adsbygoogle {
   margin-top: 12px;
   margin-bottom: 12px;
+  /* Add any additional styling you need */
 }

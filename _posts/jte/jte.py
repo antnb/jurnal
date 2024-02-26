@@ -55,7 +55,7 @@ layout: full_article
 title: "Full Article Of {encode_special_characters(title)}"
 author: "{authors}"
 description: "Full Article {strip_special_characters(abstract[:170])}"
-categories: tropika
+categories: jte
 canonical_url: {canonical_url}
 comments: true
 tags:
@@ -175,12 +175,12 @@ def process_url(url):
         # Replace "Date accessed: random tanggal,hari dan tahun" with "Date accessed: {{ site.time | date: "%d %b. %Y" }}"
         citation_output_text = re.sub(r'Date accessed: \d{1,2} \w{3}\. \d{4}', 'Date accessed: {{ site.time | date: "%d %b. %Y" }}', citation_output_text)
         # Replace the undesired URL pattern with the desired one
-        citation_output_text = re.sub(r'https://ojs\.unud\.ac\.id/index\.php/tropika/article/view/(\d+)', r'https://jurnal.harianregional.com/tropika/id-\1', citation_output_text)
+        citation_output_text = re.sub(r'https://ojs\.unud\.ac\.id/index\.php/jte/article/view/(\d+)', r'https://jurnal.harianregional.com/jte/id-\1', citation_output_text)
         # Extract the numeric part from the URL
         numeric_part = re.search(r'\d+$', url).group()
 
         # Construct canonical URL
-        canonical_url = f"https://jurnal.harianregional.com/tropika/id-{numeric_part}"
+        canonical_url = f"https://jurnal.harianregional.com/jte/id-{numeric_part}"
         
         # Extract issue information
         issue_text = soup.find("div", class_="item issue").find("div", class_="value").get_text(strip=True)
@@ -213,7 +213,7 @@ layout: post
 title: "{encode_special_characters(title)}"
 author: "{authors}"
 description: "{strip_special_characters(abstract[:170])}"
-categories: tropika
+categories: jte
 canonical_url: {canonical_url}
 comments: true
 tags:
@@ -234,7 +234,7 @@ Download data is not yet available.
 
 ## References
 {references_formatted}
-{{% include adsense.html %}}
+
 ### PDF:
 {downloads_link}
 
