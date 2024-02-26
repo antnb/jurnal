@@ -170,7 +170,7 @@ tags:
 {'*Keyword Not Available*' if not keywords else ', '.join(['*' + keyword + '*' for keyword in keywords])}
 
 ### Downloads:
-{downloads_link}
+Download data is not yet available.
 
 ## References
 {references_formatted}
