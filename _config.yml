@@ -1,7 +1,7 @@
 # Site settings
 title:          Jurnal Harian Regional
 description:    "Baca dan download jurnal akademis gratis"
-#baseurl:        "/tale"
+baseurl:        "/jurnal"
 url:            "https://jurnal.harianregional.com"
 
 # Google Analytics
