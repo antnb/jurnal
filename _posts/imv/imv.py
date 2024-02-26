@@ -229,18 +229,21 @@ tags:
 {'*Keyword Not Available*' if not keywords else ', '.join(['*' + keyword + '*' for keyword in keywords])}
 
 ### Downloads:
+{{% include adsense1.html %}}
 Download data is not yet available.
 
 ## References
 {references_formatted}
 
 ### PDF:
+{{% include adsense2.html %}}
 {downloads_link}
 
 ### Published
 {publication_date}
 
 ### How To Cite
+{{% include inarticle.html %}}
 {citation_output_text}
 
 ## Citation Format
@@ -255,6 +258,8 @@ ABNT, APA, BibTeX, CBE, EndNote - EndNote format (Macintosh & Windows), MLA, Pro
 ### copyright 
 <a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons License" /></a>
 This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="nofollow">Creative Commons Attribution 4.0 International License</a>
+
+{{% include multiplex.html %}}
 '''
 
         # Apply search and replace functions
