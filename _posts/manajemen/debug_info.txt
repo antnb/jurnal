@@ -1,17 +1,4 @@
 URLs Processed:
-"https://ojs.unud.ac.id/index.php/manajemen/article/view/104050
-"
-"https://ojs.unud.ac.id/index.php/manajemen/article/view/103298
-"
-"https://ojs.unud.ac.id/index.php/manajemen/article/view/106385
-"
-"https://ojs.unud.ac.id/index.php/manajemen/article/view/103656
-"
-"https://ojs.unud.ac.id/index.php/manajemen/article/view/103062
-"
-"https://ojs.unud.ac.id/index.php/manajemen/article/view/105485
-"
-"https://ojs.unud.ac.id/index.php/manajemen/article/view/102165
 "
 "https://ojs.unud.ac.id/index.php/manajemen/article/view/103658
 "
