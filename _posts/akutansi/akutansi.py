@@ -48,33 +48,48 @@ def encode_special_characters(title):
 def strip_special_characters(description):
     return re.sub(r'[^a-zA-Z0-9\s]', '', description)
 
-# Function to generate full article Markdown content
 def generate_full_article_markdown(title, authors, abstract, canonical_url, keywords, numeric_part):
+    # Update the canonical URL format
+    canonical_url = f"https://jurnal.harianregional.com/akutansi/full-{numeric_part}"
+
     markdown_content = f'''---
 layout: full_article
 title: "Full Article Of {encode_special_characters(title)}"
 author: "{authors}"
 description: "Full Article {strip_special_characters(abstract[:170])}"
 categories: akutansi
-canonical_url: {canonical_url}
+canonical_url: {canonical_url}  
 comments: true
 tags:
 {'  - "' + '"\n  - "'.join(keywords) + '"' if keywords else ''}
 ---
 
 
-{strip_special_characters(abstract[:570])}"
 
+{{% include adsense2.html %}}
+{strip_special_characters(abstract[:470])}
 
-        <object id="pdfObject" data="http://localhost:4000/pdf/107739.pdf" type="application/pdf" width="100%" height="600">
-            <p style="font-size: 16px;">It appears you don't have a PDF plugin for this browser.
-                You can <a href="http://localhost:4000/pdf/107739.pdf" target="_blank">download the PDF file</a>.</p>
+{{% include adsense1.html %}}
+<div style="position: relative; width: 100%; max-width: 1000px;">
+    <!-- PDF viewer container -->
+    <div style="position: relative; padding-bottom: 100%; overflow: hidden;">
+        <!-- PDF viewer -->
+        <object data="https://jurnal.harianregional.com/pdf/{numeric_part}.pdf" type="application/pdf" width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
+            <!-- Fallback content for browsers that cannot display PDFs -->
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #f8f9fa; display: flex; justify-content: center; align-items: center;">
+                <p>Sorry, your browser does not support embedded PDFs. <a href="https://jurnal.harianregional.com/pdf/{numeric_part}.pdf" target="_blank">Click here to view it.</a></p>
+            </div>
+            <!-- AdSense ad code -->
+            <div style="position: absolute; top: 10px; right: 10px; z-index: 9999;">
+                <!-- Place your AdSense ad code here -->
+            </div>
         </object>
-
+    </div>
 
 '''
 
     return markdown_content
+
 
 
 # Function to download and rename PDF document
@@ -175,12 +190,13 @@ def process_url(url):
         # Replace "Date accessed: random tanggal,hari dan tahun" with "Date accessed: {{ site.time | date: "%d %b. %Y" }}"
         citation_output_text = re.sub(r'Date accessed: \d{1,2} \w{3}\. \d{4}', 'Date accessed: {{ site.time | date: "%d %b. %Y" }}', citation_output_text)
         # Replace the undesired URL pattern with the desired one
-        citation_output_text = re.sub(r'https://ojs\.unud\.ac\.id/index\.php/akutansi/article/view/(\d+)', r'https://jurnal.harianregional.com/akutansi/id-\1', citation_output_text)
+        citation_output_text = re.sub(r'https://ojs\.unud\.ac\.id/index\.php/akuntansi/article/view/(\d+)', r'https://jurnal.harianregional.com/akutansi/id-\1', citation_output_text)
         # Extract the numeric part from the URL
         numeric_part = re.search(r'\d+$', url).group()
 
         # Construct canonical URL
         canonical_url = f"https://jurnal.harianregional.com/akutansi/id-{numeric_part}"
+        buat_url = f"https://jurnal.harianregional.com/akutansi/full-{numeric_part}"
         
         # Extract issue information
         issue_text = soup.find("div", class_="item issue").find("div", class_="value").get_text(strip=True)
@@ -232,11 +248,17 @@ tags:
 ### Downloads:
 Download data is not yet available.
 
+{{% include adsense.html %}}
 ## References
 {references_formatted}
-{{% include adsense.html %}}
+
 ### PDF:
-{downloads_link}
+
+{{% include adsense1.html %}}
+
+{buat_url}
+
+{{% include adsense2.html %}}
 
 ### Published
 {publication_date}
@@ -253,9 +275,12 @@ ABNT, APA, BibTeX, CBE, EndNote - EndNote format (Macintosh & Windows), MLA, Pro
 ### Section 
 **Articles**
 
-### copyright 
+### Copyright 
+{{% include inarticle.html %}}
 <a href="http://creativecommons.org/licenses/by/4.0/" rel="license"><img src="https://i.creativecommons.org/l/by/4.0/88x31.png" alt="Creative Commons License" /></a>
 This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" rel="nofollow">Creative Commons Attribution 4.0 International License</a>
+
+{{% include multiplex.html %}}
 '''
 
         # Apply search and replace functions
@@ -312,7 +337,7 @@ def process_urls_threaded(urls):
         thread.join()
 
 # Split URLs into chunks for threading
-chunk_size = 20
+chunk_size = 30
 url_chunks = [urls[i:i+chunk_size] for i in range(0, len(urls), chunk_size)]
 
 # Process URLs in parallel using threading
