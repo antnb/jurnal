@@ -77,7 +77,8 @@ tags:
         <object data="https://jurnal.harianregional.com/pdf/{numeric_part}.pdf" type="application/pdf" width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
             <!-- Fallback content for browsers that cannot display PDFs -->
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #f8f9fa; display: flex; justify-content: center; align-items: center;">
-                <p>Sorry, your browser does not support embedded PDFs. <a href="https://jurnal.harianregional.com/pdf/{numeric_part}.pdf" target="_blank">Click here to view it.</a></p>
+                             {{% include adsense3.html %}}
+                <p>Sorry, your browser does not support embedded PDFs. <a href="https://jurnal.harianregional.com/pdf/{numeric_part}.pdf" target="_blank">Click here to download full article.</a></p>
             </div>
             <!-- AdSense ad code -->
             <div style="position: absolute; top: 10px; right: 10px; z-index: 9999;">
@@ -190,7 +191,7 @@ def process_url(url):
         # Replace "Date accessed: random tanggal,hari dan tahun" with "Date accessed: {{ site.time | date: "%d %b. %Y" }}"
         citation_output_text = re.sub(r'Date accessed: \d{1,2} \w{3}\. \d{4}', 'Date accessed: {{ site.time | date: "%d %b. %Y" }}', citation_output_text)
         # Replace the undesired URL pattern with the desired one
-        citation_output_text = re.sub(r'https://ojs\.unud\.ac\.id/index\.php/akuntansi/article/view/(\d+)', r'https://jurnal.harianregional.com/manajemen/id-\1', citation_output_text)
+        citation_output_text = re.sub(r'https://ojs\.unud\.ac\.id/index\.php/manajemen/article/view/(\d+)', r'https://jurnal.harianregional.com/manajemen/id-\1', citation_output_text)
         # Extract the numeric part from the URL
         numeric_part = re.search(r'\d+$', url).group()
 
@@ -337,7 +338,7 @@ def process_urls_threaded(urls):
         thread.join()
 
 # Split URLs into chunks for threading
-chunk_size = 20
+chunk_size = 30
 url_chunks = [urls[i:i+chunk_size] for i in range(0, len(urls), chunk_size)]
 
 # Process URLs in parallel using threading
