@@ -60,11 +60,11 @@ def generate_full_article_markdown(title, authors, abstract, canonical_url, keyw
 layout: full_article
 title: "Full Article Of {encode_special_characters(title)}"
 author: "{authors}"
-description: "Full Article {strip_special_characters(abstract[:170])}"
+description: "Full Article {strip_special_characters(abstract[:160])}"
 categories: kerthasemaya
 canonical_url: {canonical_url} 
-citation_abstract_html_url: "{citation_abstract_html_url}"  # Ensure the URL is enclosed in double quotes
-citation_pdf_url: "{canonical_url}"  # Ensure the URL is enclosed in double quotes
+citation_abstract_html_url: "{citation_abstract_html_url}"
+citation_pdf_url: "{canonical_url}" 
 comments: true
 tags:
 {'  - "' + '"\n  - "'.join(keywords) + '"' if keywords else ''}
@@ -90,10 +90,15 @@ tags:
             </div>
             <!-- AdSense ad code -->
             <div style="position: absolute; top: 10px; right: 10px; z-index: 9999;">
-                ngadsense
+                {{% include multiplex.html %}}
             </div>
         </object>
     </div>
+    
+<!-- Link back to abstract page -->
+<div>
+    <a href="{citation_abstract_html_url}">Back to Abstract Page</a>
+</div>
 
 '''
 
