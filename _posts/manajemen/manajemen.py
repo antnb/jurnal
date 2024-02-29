@@ -52,44 +52,58 @@ def generate_full_article_markdown(title, authors, abstract, canonical_url, keyw
     # Update the canonical URL format
     canonical_url = f"https://jurnal.harianregional.com/manajemen/full-{numeric_part}"
 
+    # Update the citation abstract HTML URL dynamically based on numeric_part
+    citation_abstract_html_url = f"https://jurnal.harianregional.com/manajemen/id-{numeric_part}"
+
+    # Include citation_abstract_html_url in YAML front matter
     markdown_content = f'''---
 layout: full_article
 title: "Full Article Of {encode_special_characters(title)}"
 author: "{authors}"
-description: "Full Article {strip_special_characters(abstract[:170])}"
+description: "Full Article {strip_special_characters(abstract[:160])}"
 categories: manajemen
-canonical_url: {canonical_url}  
+canonical_url: {canonical_url} 
+citation_abstract_html_url: "{citation_abstract_html_url}"
+citation_pdf_url: "{canonical_url}" 
 comments: true
 tags:
 {'  - "' + '"\n  - "'.join(keywords) + '"' if keywords else ''}
 ---
 
-
-
 {{% include adsense2.html %}}
 {strip_special_characters(abstract[:470])}
 
 {{% include adsense1.html %}}
+
 <div style="position: relative; width: 100%; max-width: 1000px;">
     <!-- PDF viewer container -->
     <div style="position: relative; padding-bottom: 100%; overflow: hidden;">
         <!-- PDF viewer -->
-        <object data="https://jurnal.harianregional.com/pdf/{numeric_part}.pdf" type="application/pdf" width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
+        {{% include inarticle.html %}}
+        <object data="https://jurnal.harianregional.com/pdf/manajemen/{numeric_part}.pdf" type="application/pdf" width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
             <!-- Fallback content for browsers that cannot display PDFs -->
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #f8f9fa; display: flex; justify-content: center; align-items: center;">
-                             {{% include adsense3.html %}}
-                <p>Sorry, your browser does not support embedded PDFs. <a href="https://jurnal.harianregional.com/pdf/{numeric_part}.pdf" target="_blank">Click here to download full article.</a></p>
+                        <div style="position: absolute; top: 10px; right: 10px; z-index: 9999;">
+                {{% include adsense2.html %}}
+            </div>
+                <p>Sorry, your browser does not support embedded PDFs. <a href="https://jurnal.harianregional.com/pdf/manajemen/{numeric_part}.pdf" target="_blank">Click here to view it.</a></p>
             </div>
             <!-- AdSense ad code -->
             <div style="position: absolute; top: 10px; right: 10px; z-index: 9999;">
-                <!-- Place your AdSense ad code here -->
+                {{% include multiplex.html %}}
             </div>
         </object>
     </div>
+    
+<!-- Link back to abstract page -->
+<div>
+    <a href="{citation_abstract_html_url}">Back to Abstract Page</a>
+</div>
 
 '''
 
     return markdown_content
+
 
 
 
@@ -198,6 +212,9 @@ def process_url(url):
         # Construct canonical URL
         canonical_url = f"https://jurnal.harianregional.com/manajemen/id-{numeric_part}"
         buat_url = f"https://jurnal.harianregional.com/manajemen/full-{numeric_part}"
+        # Update the citation abstract HTML URL
+        citation_abstract_html_url = f"https://jurnal.harianregional.com/manajemen/id-{numeric_part}"
+        citation_pdf_url = f"https://jurnal.harianregional.com/manajemen/full-{numeric_part}"
         
         # Extract issue information
         issue_text = soup.find("div", class_="item issue").find("div", class_="value").get_text(strip=True)
@@ -233,6 +250,8 @@ description: "{strip_special_characters(abstract[:170])}"
 categories: manajemen
 canonical_url: {canonical_url}
 comments: true
+citation_abstract_html_url: "{citation_abstract_html_url}"
+citation_pdf_url: "{citation_pdf_url}"
 tags:
 {'  - "' + '"\n  - "'.join(keywords) + '"' if keywords else ''}
 ---
@@ -257,7 +276,7 @@ Download data is not yet available.
 
 {{% include adsense1.html %}}
 
-{buat_url}
+<{buat_url}>
 
 {{% include adsense2.html %}}
 
@@ -284,6 +303,8 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by/4
 {{% include multiplex.html %}}
 '''
 
+
+        
         # Apply search and replace functions
         markdown_content = remove_double_colons(markdown_content)
         markdown_content = remove_colons(markdown_content)
