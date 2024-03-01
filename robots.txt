@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
 Crawl-delay: 20
-Sitemap: feed.xml
+Sitemap: https://jurnal.harianregional.com/sitemap.xml
 
 User-agent: *
 Disallow: /pdf/
