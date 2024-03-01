@@ -1,0 +1,11 @@
+@echo off
+del "C:\Users\server\Desktop\jurnal\_posts\manajemen\2022-05-19-id-01.md"
+del "C:\Users\server\Desktop\jurnal\_posts\manajemen\2022-06-21-id-01.md"
+del "C:\Users\server\Desktop\jurnal\_posts\manajemen\2022-06-21-id-02.md"
+del "C:\Users\server\Desktop\jurnal\_posts\manajemen\2022-06-21-id-03.md"
+del "C:\Users\server\Desktop\jurnal\_posts\manajemen\2022-06-24-id-04.md"
+del "C:\Users\server\Desktop\jurnal\_posts\manajemen\2022-06-24-id-05.md"
+del "C:\Users\server\Desktop\jurnal\_posts\manajemen\2022-07-26-id-02.md"
+del "C:\Users\server\Desktop\jurnal\_posts\manajemen\2022-07-26-id-03.md"
+del "C:\Users\server\Desktop\jurnal\_posts\manajemen\2022-07-26-id-04.md"
+del "C:\Users\server\Desktop\jurnal\_posts\manajemen\2022-07-26-id-05.md"
