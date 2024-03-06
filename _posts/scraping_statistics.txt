@@ -1,4 +1,0 @@
-Total URLs: 14
-Successful Scrapes: 0
-Failed Scrapes: 0
-Failed URLs List: failed_urls.txt
