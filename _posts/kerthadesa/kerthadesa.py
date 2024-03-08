@@ -10,7 +10,7 @@ import threading
 import shutil
 
 # Create folders if they don't exist
-folders = ['posts', 'full_articles', 'kerthadesa_pdfs']
+folders = ['posts', 'full_kerthadesa', 'kerthadesa_pdfs']
 for folder in folders:
     if not os.path.exists(folder):
         os.makedirs(folder)
@@ -81,16 +81,16 @@ tags:
         <!-- PDF viewer -->
         {{% include inarticle.html %}}
         <object data="https://jurnal.harianregional.com/pdf/kerthadesa/{numeric_part}.pdf" type="application/pdf" width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
-            <!-- Fallback content for browsers that cannot display PDFs -->
+            <!-- Fallback content for browsers that cannot display kerthadesa_pdfs -->
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #f8f9fa; display: flex; justify-content: center; align-items: center;">
                         <div style="position: absolute; top: 10px; right: 10px; z-index: 9999;">
                 {{% include adsense2.html %}}
             </div>
-                <p>Sorry, your browser does not support embedded PDFs. <a href="https://jurnal.harianregional.com/pdf/kerthadesa/{numeric_part}.pdf" target="_blank">Click here to view it.</a></p>
+                <p>Sorry, your browser does not support embedded kerthadesa_pdfs. <a href="https://jurnal.harianregional.com/pdf/kerthadesa/{numeric_part}.pdf" target="_blank">Click here to view it.</a></p>
             </div>
             <!-- AdSense ad code -->
             <div style="position: absolute; top: 10px; right: 10px; z-index: 9999;">
-              {{% include inarticle.html %}}
+                {{% include adsense3.html %}}
             </div>
         </object>
     </div>
@@ -320,7 +320,7 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by/4
         full_article_markdown = generate_full_article_markdown(title, authors, abstract, canonical_url, keywords, numeric_part)
 
         # Modify the file name to include 'full'
-        full_article_file_name = f"full_articles/{publication_date}-full-{numeric_part}.md" if publication_date else f"full_articles/unknown-full-{numeric_part}.md"
+        full_article_file_name = f"full_kerthadesa/{publication_date}-full-{numeric_part}.md" if publication_date else f"full_articles/unknown-full-{numeric_part}.md"
 
         # Save the full article Markdown content to a file with the modified name
         with open(full_article_file_name, "w", encoding="utf-8") as file:
