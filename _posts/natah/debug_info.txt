@@ -1,0 +1,188 @@
+URLs Processed:
+"https://ojs.unud.ac.id/index.php/natah/article/view/2948
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2982
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3029
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2947
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2943
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3033
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3028
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2938
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3027
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2945
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3034
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3020
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2950
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2931
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2981
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3040
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2930
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3023
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3038
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3030
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2929
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3021
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3031
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2932
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3036
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3039
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3037
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3026
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3035
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/3032
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2923
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2921
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2926
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2928
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2933
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2935
+"
+"https://ojs.unud.ac.id/index.php/natah/article/view/2924
+"
+
+URLs Failed:
+"https://ojs.unud.ac.id/index.php/natah/article/view/2948
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2948
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2982
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2982
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3029
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3029
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2947
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2947
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2943
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2943
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3033
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3033
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3028
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3028
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2938
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2938
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3027
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3027
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2945
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2945
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3034
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3034
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3020
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3020
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2950
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2950
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2931
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2931
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2981
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2981
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3040
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3040
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2930
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2930
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3023
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3023
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3038
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3038
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3030
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3030
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2929
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2929
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3021
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3021
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3031
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3031
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2932
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2932
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3036
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3036
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3039
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3039
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3037
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3037
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3026
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3026
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3035
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3035
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/3032
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/3032
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2923
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2923
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2921
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2921
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2926
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2926
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2928
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2928
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2933
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2933
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2935
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2935
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/natah/article/view/2924
+" - Failed to process https://ojs.unud.ac.id/index.php/natah/article/view/2924
+. Reason: 'NoneType' object is not subscriptable

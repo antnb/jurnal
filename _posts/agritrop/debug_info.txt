@@ -1,0 +1,203 @@
+URLs Processed:
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3061
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3074
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3067
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3076
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3078
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3082
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3070
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3079
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3056
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3052
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3065
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3072
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3053
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3075
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3059
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3054
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3069
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3062
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3055
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3068
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3064
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3057
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3080
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3073
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3077
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3060
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3081
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3071
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3063
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3066
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3049
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3047
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3042
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3044
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3041
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3043
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3046
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3045
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3058
+"
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3048
+"
+
+URLs Failed:
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3061
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3061
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3074
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3074
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3067
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3067
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3076
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3076
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3078
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3078
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3082
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3082
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3070
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3070
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3079
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3079
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3056
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3056
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3052
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3052
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3065
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3065
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3072
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3072
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3053
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3053
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3075
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3075
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3059
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3059
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3054
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3054
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3069
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3069
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3062
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3062
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3055
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3055
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3068
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3068
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3064
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3064
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3057
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3057
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3080
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3080
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3073
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3073
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3077
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3077
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3060
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3060
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3081
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3081
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3071
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3071
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3063
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3063
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3066
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3066
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3049
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3049
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3047
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3047
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3042
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3042
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3044
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3044
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3041
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3041
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3043
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3043
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3046
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3046
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3045
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3045
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3058
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3058
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/agritrop/article/view/3048
+" - Failed to process https://ojs.unud.ac.id/index.php/agritrop/article/view/3048
+. Reason: 'NoneType' object is not subscriptable
