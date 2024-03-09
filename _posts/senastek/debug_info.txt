@@ -1,0 +1,208 @@
+URLs Processed:
+
+
+URLs Failed:
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109215
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109215
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/110025
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/110025
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109290
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109290
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108100
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108100
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108123
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108123
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108107
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108107
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109222
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109222
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/107828
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/107828
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/107760
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/107760
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108051
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108051
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108050
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108050
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108119
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108119
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/110024
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/110024
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108162
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108162
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108105
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108105
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108767
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108767
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108139
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108139
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/107890
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/107890
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109143
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109143
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109208
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109208
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108158
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108158
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/110026
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/110026
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108958
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108958
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108159
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108159
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/107485
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/107485
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/107946
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/107946
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108174
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108174
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109248
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109248
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108169
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108169
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109247
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109247
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/110667
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/110667
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/110665
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/110665
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108194
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108194
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109188
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109188
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/111223
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/111223
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108198
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108198
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/94264
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/94264
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108196
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108196
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108557
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108557
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108540
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108540
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/110907
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/110907
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108347
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108347
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109402
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109402
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108712
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108712
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108244
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108244
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108210
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108210
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108193
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108193
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108187
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108187
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109231
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109231
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108259
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108259
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109036
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109036
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108713
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108713
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/94255
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/94255
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108324
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108324
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108520
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108520
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109242
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109242
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/109255
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/109255
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/107826
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/107826
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108239
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108239
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/108199
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/108199
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/94925
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/94925
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/94265
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/94265
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/94923
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/94923
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/94266
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/94266
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/94926
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/94926
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/94267
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/94267
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/94921
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/94921
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/senastek/article/view/94927
+" - Failed to process https://ojs.unud.ac.id/index.php/senastek/article/view/94927
+. Reason: Failed to locate title information. Element with class 'page_title' not found.

@@ -1,0 +1,152 @@
+URLs Processed:
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/102127
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/86085
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/95021
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/95113
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/91410
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/90508
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/78839
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/100434
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/101218
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/91125
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/64078
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/108583
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/85576
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/92222
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/87329
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/108710
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/78562
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/94568
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/105950
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/98947
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/111103
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/98150
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/109357
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/111110
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/91228
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/100314
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/85577
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/99999
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/87324
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/91808
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/72804
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/63182
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/73011
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/63372
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/60460
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/60461
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/61661
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/60490
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/60489
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/61865
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/61777
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/61644
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/69749
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/60491
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/61306
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/72950
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/62380
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/78418
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/77908
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/61643
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/61800
+"
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/62323
+"
+
+URLs Failed:
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/102127
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/102127
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/95113
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/95113
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/87329
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/87329
+. Reason: 'NoneType' object is not subscriptable
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p01
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p01
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p01%0A
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p03
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p03
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p03%0A
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p04
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p04
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p04%0A
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p01/35018
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p01/35018
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p01/35018%0A
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p03/35019
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p03/35019
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p03/35019%0A
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p04/35020
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p04/35020
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p04/35020%0A
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p02
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p02
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p02%0A
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p02/35105
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p02/35105
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p02/35105%0A
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p06/35022
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p06/35022
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p06/35022%0A
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p05/35021
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p05/35021
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p05/35021%0A
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p06
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p06
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p06%0A
+"https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p05
+" - Failed to process https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p05
+. Reason: 404 Client Error: Not Found for url: https://ojs.unud.ac.id/index.php/jpsa/article/view/DOI%20%3A%20https%3A%2F%2Fdoi.org%2F10.24843%2FJPSA.2012.v01.i01.p05%0A

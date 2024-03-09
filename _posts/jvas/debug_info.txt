@@ -1,0 +1,238 @@
+URLs Processed:
+
+
+URLs Failed:
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/88870
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/88870
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/85279
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/85279
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/85331
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/85331
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/88876
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/88876
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/101395
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/101395
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/97636
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/97636
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/106998
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/106998
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/79802
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/79802
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/106999
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/106999
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/85335
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/85335
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/98074
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/98074
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/98072
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/98072
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/106995
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/106995
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/106994
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/106994
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/77641
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/77641
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/106997
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/106997
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/98073
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/98073
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/79798
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/79798
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/103075
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/103075
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/77125
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/77125
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/89851
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/89851
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/64530
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/64530
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/79500
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/79500
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/102800
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/102800
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/94492
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/94492
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/80627
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/80627
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/82049
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/82049
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/104799
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/104799
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/82047
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/82047
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/76587
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/76587
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/63839
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/63839
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/63842
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/63842
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/60776
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/60776
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/59245
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/59245
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/55183
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/55183
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/40669
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/40669
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/59228
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/59228
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/55481
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/55481
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/63830
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/63830
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/40680
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/40680
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/55187
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/55187
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/60772
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/60772
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/60771
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/60771
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/59224
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/59224
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/63834
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/63834
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/59223
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/59223
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/60775
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/60775
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/60770
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/60770
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/59227
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/59227
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/55189
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/55189
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/55184
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/55184
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/59225
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/59225
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/55186
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/55186
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/55188
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/55188
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/60773
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/60773
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/60774
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/60774
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/63837
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/63837
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/60718
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/60718
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/63826
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/63826
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/59226
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/59226
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/40682
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/40682
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/31870
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/31870
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/40676
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/40676
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/31869
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/31869
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/40674
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/40674
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/40670
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/40670
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/40672
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/40672
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/40673
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/40673
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/31801
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/31801
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/31721
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/31721
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/40677
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/40677
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/31799
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/31799
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/31800
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/31800
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/31802
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/31802
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/31867
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/31867
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/31866
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/31866
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/31868
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/31868
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
+"https://ojs.unud.ac.id/index.php/JVAS/article/view/31753
+" - Failed to process https://ojs.unud.ac.id/index.php/JVAS/article/view/31753
+. Reason: Failed to locate title information. Element with class 'page_title' not found.
