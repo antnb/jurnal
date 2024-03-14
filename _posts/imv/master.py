@@ -10,7 +10,7 @@ import threading
 import shutil
 
 # Create folders if they don't exist
-folders = ['posts', 'full_articles', 'imv_pdfs']
+folders = ['posts', 'full_imv', 'imv_pdfs']
 for folder in folders:
     if not os.path.exists(folder):
         os.makedirs(folder)
@@ -50,10 +50,10 @@ def strip_special_characters(description):
 
 def generate_full_article_markdown(title, authors, abstract, canonical_url, keywords, numeric_part):
     # Update the canonical URL format
-    canonical_url = f"https://jurnal.harianregional.com/akuntansi/full-{numeric_part}"
+    canonical_url = f"https://jurnal.harianregional.com/imv/full-{numeric_part}"
 
     # Update the citation abstract HTML URL dynamically based on numeric_part
-    citation_abstract_html_url = f"https://jurnal.harianregional.com/akuntansi/id-{numeric_part}"
+    citation_abstract_html_url = f"https://jurnal.harianregional.com/imv/id-{numeric_part}"
 
     # Include citation_abstract_html_url in YAML front matter
     markdown_content = f'''---
@@ -61,7 +61,7 @@ layout: full_article
 title: "Full Article Of {encode_special_characters(title)}"
 author: "{authors}"
 description: "Full Article {strip_special_characters(abstract[:170])}"
-categories: akuntansi
+categories: imv
 canonical_url: {canonical_url} 
 citation_abstract_html_url: "{citation_abstract_html_url}"  
 citation_pdf_url: "{canonical_url}"  
@@ -80,17 +80,17 @@ tags:
     <div style="position: relative; padding-bottom: 100%; overflow: hidden;">
         <!-- PDF viewer -->
         {{% include inarticle.html %}}
-        <object data="https://jurnal.harianregional.com/pdf/akuntansi/{numeric_part}.pdf" type="application/pdf" width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
+        <object data="https://jurnal.harianregional.com/pdf/imv/{numeric_part}.pdf" type="application/pdf" width="100%" height="100%" style="position: absolute; top: 0; left: 0;">
             <!-- Fallback content for browsers that cannot display imv_pdfs -->
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #f8f9fa; display: flex; justify-content: center; align-items: center;">
                         <div style="position: absolute; top: 10px; right: 10px; z-index: 9999;">
                 {{% include adsense2.html %}}
             </div>
-                <p>Sorry, your browser does not support embedded imv_pdfs. <a href="https://jurnal.harianregional.com/pdf/akuntansi/{numeric_part}.pdf" target="_blank">Click here to view it.</a></p>
+                <p>Sorry, your browser does not support embedded imv_pdfs. <a href="https://jurnal.harianregional.com/pdf/imv/{numeric_part}.pdf" target="_blank">Click here to view it.</a></p>
             </div>
             <!-- AdSense ad code -->
             <div style="position: absolute; top: 10px; right: 10px; z-index: 9999;">
-                ngadsense
+                {{% include adsense3.html %}}
             </div>
         </object>
     </div>
@@ -200,16 +200,16 @@ def process_url(url):
         # Replace "Date accessed: random tanggal,hari dan tahun" with "Date accessed: {{ site.time | date: "%d %b. %Y" }}"
         citation_output_text = re.sub(r'Date accessed: \d{1,2} \w{3}\. \d{4}', 'Date accessed: {{ site.time | date: "%d %b. %Y" }}', citation_output_text)
         # Replace the undesired URL pattern with the desired one
-        citation_output_text = re.sub(r'https://ojs\.unud\.ac\.id/index\.php/akuntansi/article/view/(\d+)', r'https://jurnal.harianregional.com/akuntansi/id-\1', citation_output_text)
+        citation_output_text = re.sub(r'https://ojs\.unud\.ac\.id/index\.php/imv/article/view/(\d+)', r'https://jurnal.harianregional.com/imv/id-\1', citation_output_text)
         # Extract the numeric part from the URL
         numeric_part = re.search(r'\d+$', url).group()
 
         # Construct canonical URL
-        canonical_url = f"https://jurnal.harianregional.com/akuntansi/id-{numeric_part}"
-        buat_url = f"https://jurnal.harianregional.com/akuntansi/full-{numeric_part}"
+        canonical_url = f"https://jurnal.harianregional.com/imv/id-{numeric_part}"
+        buat_url = f"https://jurnal.harianregional.com/imv/full-{numeric_part}"
         # Update the citation abstract HTML URL
-        citation_abstract_html_url = f"https://jurnal.harianregional.com/akuntansi/id-{numeric_part}"
-        citation_pdf_url = f"https://jurnal.harianregional.com/akuntansi/full-{numeric_part}"
+        citation_abstract_html_url = f"https://jurnal.harianregional.com/imv/id-{numeric_part}"
+        citation_pdf_url = f"https://jurnal.harianregional.com/imv/full-{numeric_part}"
         
         # Extract issue information
         issue_text = soup.find("div", class_="item issue").find("div", class_="value").get_text(strip=True)
@@ -242,7 +242,7 @@ layout: post
 title: "{encode_special_characters(title)}"
 author: "{authors}"
 description: "{strip_special_characters(abstract[:170])}"
-categories: akuntansi
+categories: imv
 canonical_url: {canonical_url}
 comments: true
 citation_abstract_html_url: "{citation_abstract_html_url}"
@@ -320,7 +320,7 @@ This work is licensed under a <a href="http://creativecommons.org/licenses/by/4
         full_article_markdown = generate_full_article_markdown(title, authors, abstract, canonical_url, keywords, numeric_part)
 
         # Modify the file name to include 'full'
-        full_article_file_name = f"full_articles/{publication_date}-full-{numeric_part}.md" if publication_date else f"full_articles/unknown-full-{numeric_part}.md"
+        full_article_file_name = f"full_imv/{publication_date}-full-{numeric_part}.md" if publication_date else f"full_articles/unknown-full-{numeric_part}.md"
 
         # Save the full article Markdown content to a file with the modified name
         with open(full_article_file_name, "w", encoding="utf-8") as file:
