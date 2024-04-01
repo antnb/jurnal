@@ -6,3 +6,4 @@ Sitemap: https://jurnal.harianregional.com/sitemap/site.xml
 User-agent: *
 Disallow: /pdf/
 Disallow: /cdn-cgi/
+Disallow: /plugin/
