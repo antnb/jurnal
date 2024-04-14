@@ -46,3 +46,7 @@ collections:
   full:
     output: true
     permalink: /:categories/:title
+    
+# Include media directory
+include:
+  - 'media'
